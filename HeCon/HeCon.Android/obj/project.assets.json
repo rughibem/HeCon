@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programare\\rep\\HeCon\\HeCon\\HeCon.Android\\HeCon.Android.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\test\\HeCon\\HeCon\\HeCon.Android\\HeCon.Android.csproj",
       "projectName": "HeCon.Android",
-      "projectPath": "D:\\Programare\\rep\\HeCon\\HeCon\\HeCon.Android\\HeCon.Android.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\test\\HeCon\\HeCon\\HeCon.Android\\HeCon.Android.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Programare\\rep\\HeCon\\HeCon\\HeCon.Android\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\test\\HeCon\\HeCon\\HeCon.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
