@@ -94,7 +94,6 @@ C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\res\drawable-xhdp
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\res\drawable-xxhdpi\splashscreen.png
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\R.cs.flag
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\uploadflags.txt
-C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\HeCon.Android.dll
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\Mono.Android.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\mscorlib.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\System.Core.pdb
@@ -129,7 +128,6 @@ C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\FormsView
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
-<<<<<<< HEAD
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\HeCon.Android.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\HeCon.Android.dll.mdb
@@ -147,5 +145,3 @@ C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\Sy
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.Xml.Linq.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.Xml.pdb
-=======
->>>>>>> dfa3dedb9240b9abe7c0083aa11e5317f8b1e64b
