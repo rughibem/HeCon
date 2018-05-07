@@ -142,9 +142,3 @@ C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\Sy
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.Xml.Linq.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.Xml.pdb
-C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\HeCon.Android.dll
-C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\HeCon.Android.dll.mdb
-C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
-C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
-C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
-C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
