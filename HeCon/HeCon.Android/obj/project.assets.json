@@ -282,6 +282,24 @@
           "build/Xamarin.Build.Download.targets": {}
         }
       },
+      "Xamarin.Firebase.Auth/42.1021.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Firebase.Common": "[42.1021.1]",
+          "Xamarin.GooglePlayServices.Base": "[42.1021.1]",
+          "Xamarin.GooglePlayServices.Basement": "[42.1021.1]",
+          "Xamarin.GooglePlayServices.Tasks": "[42.1021.1]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Firebase.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Firebase.Auth.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.Firebase.Auth.targets": {}
+        }
+      },
       "Xamarin.Firebase.Common/42.1021.1": {
         "type": "package",
         "dependencies": {
@@ -331,7 +349,7 @@
           "build/MonoAndroid70/Xamarin.Firebase.Messaging.targets": {}
         }
       },
-      "Xamarin.Forms/2.5.1.527436": {
+      "Xamarin.Forms/3.0.0.446417": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.Design": "25.4.0.2",
@@ -355,8 +373,24 @@
           "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll": {}
         },
         "build": {
-          "build/netstandard1.0/Xamarin.Forms.props": {},
-          "build/netstandard1.0/Xamarin.Forms.targets": {}
+          "build/netstandard2.0/Xamarin.Forms.props": {},
+          "build/netstandard2.0/Xamarin.Forms.targets": {}
+        }
+      },
+      "Xamarin.GooglePlayServices.Base/42.1021.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.GooglePlayServices.Basement": "[42.1021.1]",
+          "Xamarin.GooglePlayServices.Tasks": "[42.1021.1]"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Base.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.GooglePlayServices.Base.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Xamarin.GooglePlayServices.Base.targets": {}
         }
       },
       "Xamarin.GooglePlayServices.Basement/42.1021.1": {
@@ -644,6 +678,17 @@
         "xamarin.build.download.nuspec"
       ]
     },
+    "Xamarin.Firebase.Auth/42.1021.1": {
+      "sha512": "eX0cgS9i3pFPCHi5wc2kGvPb2sS7iQIwMvDYBPCg7LYiP2rZLZKmBy+AS9zIXyXTEPT1+nTHKd7GLi8q26DkuA==",
+      "type": "package",
+      "path": "xamarin.firebase.auth/42.1021.1",
+      "files": [
+        "build/MonoAndroid70/Xamarin.Firebase.Auth.targets",
+        "lib/MonoAndroid70/Xamarin.Firebase.Auth.dll",
+        "xamarin.firebase.auth.42.1021.1.nupkg.sha512",
+        "xamarin.firebase.auth.nuspec"
+      ]
+    },
     "Xamarin.Firebase.Common/42.1021.1": {
       "sha512": "nJ6MmSJK1AYRZL3tw/SnVx9gyg037xlvez5tyi9Nw8Ni8U7hskIN+CI0m0dfEmkL8fgg/FDLsb1VeszZPfHlXA==",
       "type": "package",
@@ -677,15 +722,16 @@
         "xamarin.firebase.messaging.nuspec"
       ]
     },
-    "Xamarin.Forms/2.5.1.527436": {
-      "sha512": "HY6Kzu7fufV5PYkMcetpFmeQ8/NrOsolBc1XZzzZKqh2UrqWwkHC7UI5LmmZgfwqs/O9eP7tDIwc1lturp1vOw==",
+    "Xamarin.Forms/3.0.0.446417": {
+      "sha512": "9Q6dING0FdSiOlsWUdNUzNiZgEljZ7rez5rn3+77+h0hfaFjSyV0tZQ1y2u2pXzRqgWNjDH3rrcCSoKgkMIxzA==",
       "type": "package",
-      "path": "xamarin.forms/2.5.1.527436",
+      "path": "xamarin.forms/3.0.0.446417",
       "files": [
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
         "build/netstandard1.0/Mono.Cecil.Rocks.dll",
         "build/netstandard1.0/Mono.Cecil.dll",
+        "build/netstandard1.0/System.CodeDom.dll",
         "build/netstandard1.0/Xamarin.Forms.Build.Tasks.dll",
         "build/netstandard1.0/Xamarin.Forms.Core.dll",
         "build/netstandard1.0/Xamarin.Forms.DefaultItems.props",
@@ -693,17 +739,18 @@
         "build/netstandard1.0/Xamarin.Forms.Xaml.dll",
         "build/netstandard1.0/Xamarin.Forms.props",
         "build/netstandard1.0/Xamarin.Forms.targets",
-        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Mdb.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Pdb.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.Rocks.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Mono.Cecil.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Build.Tasks.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.DefaultItems.targets",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll",
-        "build/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.targets",
-        "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
+        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard2.0/Mono.Cecil.dll",
+        "build/netstandard2.0/System.CodeDom.dll",
+        "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
+        "build/netstandard2.0/Xamarin.Forms.Core.dll",
+        "build/netstandard2.0/Xamarin.Forms.DefaultItems.props",
+        "build/netstandard2.0/Xamarin.Forms.DefaultItems.targets",
+        "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "build/netstandard2.0/Xamarin.Forms.props",
+        "build/netstandard2.0/Xamarin.Forms.targets",
         "lib/MonoAndroid10/FormsViewGroup.dll",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
@@ -715,31 +762,17 @@
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
-        "lib/WP80/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/WP80/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/WP80/Xamarin.Forms.Core.dll",
-        "lib/WP80/Xamarin.Forms.Core.pdb",
-        "lib/WP80/Xamarin.Forms.Core.xml",
-        "lib/WP80/Xamarin.Forms.Platform.WP8.dll",
-        "lib/WP80/Xamarin.Forms.Platform.dll",
-        "lib/WP80/Xamarin.Forms.Xaml.dll",
-        "lib/WP80/Xamarin.Forms.Xaml.pdb",
-        "lib/WP80/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
-        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll.mdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll.mdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll",
@@ -779,27 +812,30 @@
         "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
         "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/netstandard1.0/Xamarin.Forms.Core.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Core.dll.mdb",
         "lib/netstandard1.0/Xamarin.Forms.Core.pdb",
         "lib/netstandard1.0/Xamarin.Forms.Core.xml",
         "lib/netstandard1.0/Xamarin.Forms.Platform.dll",
         "lib/netstandard1.0/Xamarin.Forms.Xaml.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll.mdb",
         "lib/netstandard1.0/Xamarin.Forms.Xaml.pdb",
         "lib/netstandard1.0/Xamarin.Forms.Xaml.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.dll.mdb",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.pdb",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Core.xml",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Platform.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.dll.mdb",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.pdb",
-        "lib/portable-win+net45+wp80+win81+wpa81/Xamarin.Forms.Xaml.xml",
-        "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
+        "lib/tizen40/Xamarin.Forms.Core.dll",
+        "lib/tizen40/Xamarin.Forms.Core.pdb",
+        "lib/tizen40/Xamarin.Forms.Core.xml",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.pdb",
+        "lib/tizen40/Xamarin.Forms.Platform.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.pdb",
+        "lib/tizen40/Xamarin.Forms.Xaml.xml",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
         "lib/uap10.0/Xamarin.Forms.Core.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
@@ -807,6 +843,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
@@ -818,45 +855,19 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "lib/win81/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/win81/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/win81/Xamarin.Forms.Core.dll",
-        "lib/win81/Xamarin.Forms.Core.xml",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet.dll",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet.pri",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/FormsProgressBarStyle.xbf",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/FormsTextBoxStyle.xbf",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/Resources.xbf",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/TabletResources.xbf",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.Tablet/Xamarin.Forms.Platform.WinRT.Tablet.xr.xml",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.dll",
-        "lib/win81/Xamarin.Forms.Platform.WinRT.pri",
-        "lib/win81/Xamarin.Forms.Platform.WinRT/StepperControl.xbf",
-        "lib/win81/Xamarin.Forms.Platform.WinRT/Xamarin.Forms.Platform.WinRT.xr.xml",
-        "lib/win81/Xamarin.Forms.Platform.dll",
-        "lib/win81/Xamarin.Forms.Xaml.dll",
-        "lib/win81/Xamarin.Forms.Xaml.xml",
-        "lib/wpa81/Design/Xamarin.Forms.Core.Design.dll",
-        "lib/wpa81/Design/Xamarin.Forms.Xaml.Design.dll",
-        "lib/wpa81/Xamarin.Forms.Core.dll",
-        "lib/wpa81/Xamarin.Forms.Core.xml",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone.dll",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone.pri",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/FormsProgressBarStyle.xbf",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/FormsTextBoxStyle.xbf",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/PhoneResources.xbf",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/Resources.xbf",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/SearchBox.xbf",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.Phone/Xamarin.Forms.Platform.WinRT.Phone.xr.xml",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.dll",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT.pri",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT/StepperControl.xbf",
-        "lib/wpa81/Xamarin.Forms.Platform.WinRT/Xamarin.Forms.Platform.WinRT.xr.xml",
-        "lib/wpa81/Xamarin.Forms.Platform.dll",
-        "lib/wpa81/Xamarin.Forms.Xaml.dll",
-        "lib/wpa81/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.2.5.1.527436.nupkg.sha512",
+        "xamarin.forms.3.0.0.446417.nupkg.sha512",
         "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.GooglePlayServices.Base/42.1021.1": {
+      "sha512": "BtzfOXEkHdaQ8NGc8TpAYmjGAf27zWyxMS9dz+YGU2S2oR09KPm/dQ7PzHNlOT90CQLI4JjzKTxfQ7IB5DBsJA==",
+      "type": "package",
+      "path": "xamarin.googleplayservices.base/42.1021.1",
+      "files": [
+        "build/MonoAndroid70/Xamarin.GooglePlayServices.Base.targets",
+        "lib/MonoAndroid70/Xamarin.GooglePlayServices.Base.dll",
+        "xamarin.googleplayservices.base.42.1021.1.nupkg.sha512",
+        "xamarin.googleplayservices.base.nuspec"
       ]
     },
     "Xamarin.GooglePlayServices.Basement/42.1021.1": {
@@ -892,8 +903,9 @@
       "Xamarin.Android.Support.v7.AppCompat >= 25.4.0.2",
       "Xamarin.Android.Support.v7.CardView >= 25.4.0.2",
       "Xamarin.Android.Support.v7.MediaRouter >= 25.4.0.2",
+      "Xamarin.Firebase.Auth >= 42.1021.1",
       "Xamarin.Firebase.Messaging >= 42.1021.1",
-      "Xamarin.Forms >= 2.5.1.527436"
+      "Xamarin.Forms >= 3.0.0.446417"
     ]
   },
   "packageFolders": {
@@ -902,11 +914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programare\\rep\\HeCon\\HeCon\\HeCon.Android\\HeCon.Android.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\test\\HeCon\\HeCon\\HeCon.Android\\HeCon.Android.csproj",
       "projectName": "HeCon.Android",
-      "projectPath": "D:\\Programare\\rep\\HeCon\\HeCon\\HeCon.Android\\HeCon.Android.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\test\\HeCon\\HeCon\\HeCon.Android\\HeCon.Android.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Programare\\rep\\HeCon\\HeCon\\HeCon.Android\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\test\\HeCon\\HeCon\\HeCon.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -957,13 +969,17 @@
             "target": "Package",
             "version": "[25.4.0.2, )"
           },
+          "Xamarin.Firebase.Auth": {
+            "target": "Package",
+            "version": "[42.1021.1, )"
+          },
           "Xamarin.Firebase.Messaging": {
             "target": "Package",
             "version": "[42.1021.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[2.5.1.527436, )"
+            "version": "[3.0.0.446417, )"
           }
         }
       }
