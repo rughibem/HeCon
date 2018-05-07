@@ -102,11 +102,14 @@ C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\res\drawable-xhdp
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\res\drawable-xxhdpi\splashscreen.png
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\R.cs.flag
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\uploadflags.txt
+<<<<<<< HEAD
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\HeCon.Android.dll
 C:\Users\User\.nuget\packages\xamarin.forms\2.5.1.527436\lib\MonoAndroid10\FormsViewGroup.dll
 C:\Users\User\.nuget\packages\xamarin.forms\2.5.1.527436\lib\MonoAndroid10\Xamarin.Forms.Core.dll
 C:\Users\User\.nuget\packages\xamarin.forms\2.5.1.527436\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll
 C:\Users\User\.nuget\packages\xamarin.forms\2.5.1.527436\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll
+=======
+>>>>>>> bc5ed062aa5e990b432e0d6b418c9489d547556b
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\Mono.Android.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\mscorlib.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\System.Core.pdb
@@ -142,13 +145,36 @@ C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Mono.Secu
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\System.IO.Compression.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\System.IO.Compression.FileSystem.pdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
+<<<<<<< HEAD
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\System.Web.Services.pdb
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> bc5ed062aa5e990b432e0d6b418c9489d547556b
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+>>>>>>> dfa3dedb9240b9abe7c0083aa11e5317f8b1e64b
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\HeCon.Android.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\FormsViewGroup.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\bin\Debug\HeCon.Android.dll.mdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\HeCon.Android.dll.mdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\Mono.Android.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\Mono.Security.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\mscorlib.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.ComponentModel.Composition.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.Core.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.Net.Http.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.Runtime.Serialization.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.Xml.Linq.pdb
+C:\Users\User\Desktop\test\HeCon\HeCon\HeCon.Android\obj\Debug\android\assets\System.Xml.pdb
