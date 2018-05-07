@@ -7,12 +7,11 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
-//using Firebase.js;
 using Android.Support.V7.App;
 using System.Collections.Generic;
 using System;
 using System.Threading.Tasks;
-//using Firebase.Xamarin;
+using Firebase.Auth;
 
 namespace HeCon.Droid
 {
@@ -20,68 +19,54 @@ namespace HeCon.Droid
     public class MainActivity : AppCompatActivity
     {
 
-        private EditText input_email, input_password;
-        private ListView list_data;
-        private ProgressBar circular_progress;
-        private List<Account> list_users = new List<Account>();
-        private ListViewLogin adapter;
-        private Account selectedAccount;
-        private const string FirebaseURL = "hhttps://hecon-e36fa.firebaseio.com/"; //Firebase Database URL  
+        const string TAG = "EmailPassword";
 
+        TextView mStatusTextView;
+        TextView mDetailTextView;
+        EditText mEmailField;
+        EditText mPasswordField;
 
-         /*protected override void OnCreate(Bundle bundle)
-          {
-              TabLayoutResource = Resource.Layout.Tabbar;
-              ToolbarResource = Resource.Layout.Toolbar;
+        // [START declare_auth]
+        //private FirebaseAuth mAuth;
+        
+        // [END declare_auth]
 
-              base.OnCreate(bundle);
-
-              global::Xamarin.Forms.Forms.Init(this, bundle);
-              LoadApplication(new App());
-          }*/
-
-        protected override async void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            // Set our view from the "main" layout resource  
-          //  SetContentView(Resource.Layout.Main);
+            SetContentView(Resource.Layout.login);
 
-         
-           // input_email = FindViewById<EditText>(Resource.Id.Email);
-           // input_password = FindViewById<EditText>(Resource.Id.Password);
-           // list_data = FindViewById<ListView>(Resource.Id.login);
-            list_data.ItemClick += (s, e) =>
-            {
-                Account account = list_users[e.Position];
-                selectedAccount = account;
-                input_email.Text = account.Email;
-                input_password.Text = account.Password;
-            };
-            await LoadData();
-        }
-        private async Task LoadData()
-        {
+            // Views
           
-            list_data.Visibility = ViewStates.Invisible;
-            //var firebase = new FirebaseClient(FirebaseURL);
-           /* var items = await firebase
-                .Child("users")
-                .OnceAsync<Account>();
-            list_users.Clear();
-           // adapter = null;
-/*foreach (var item in items)
-            {
-                Account account = new Account();
-                account.Uid = item.Key;
-                account.Email = item.Object.Email;
-                account.Password = item.Object.Password;
-                list_users.Add(account);
-            }*/
-         //   adapter = new ListViewAdapter(this, list_users);
-           // adapter.NotifyDataSetChanged();
-          //  list_data.Adapter = adapter;
-            list_data.Visibility = ViewStates.Visible;
+            mEmailField = FindViewById<EditText>(Resource.Id.emailEditText);
+            mPasswordField = FindViewById<EditText>(Resource.Id.passwordEditText);
+
+            // Buttons
+            
+            FindViewById(Resource.Id.LogInButton).Click += async delegate {
+               // await CreateAccount(mEmailField.Text, mPasswordField.Text);
+            };
+            
+
+            // [START initialize_auth]
+            //mAuth =Firebase.FirebaseOptions.
+            // [END initialize_auth]
         }
+
+
+
+        /*protected override void OnCreate(Bundle bundle)
+         {
+             TabLayoutResource = Resource.Layout.Tabbar;
+             ToolbarResource = Resource.Layout.Toolbar;
+
+             base.OnCreate(bundle);
+
+             global::Xamarin.Forms.Forms.Init(this, bundle);
+             LoadApplication(new App());
+         }*/
+
+
     }
 }
 
