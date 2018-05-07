@@ -52,9 +52,10 @@ namespace HeCon.Droid
                 await CreateAccount(mEmailField.Text, mPasswordField.Text);
             };
 
+            InitFirebaseAuth();
 
             // [START initialize_auth]
-            mAuth = FirebaseAuth.Instance;
+            // mAuth = FirebaseAuth.Instance;
             // [END initialize_auth]
         }
         void AuthStateChanged(object sender, FirebaseAuth.AuthStateEventArgs e)
@@ -176,6 +177,21 @@ namespace HeCon.Droid
              LoadApplication(new App());
          }*/
 
+        private void InitFirebaseAuth()
+        {
+            // Codurile de mai jos sunt luate din Firebase
+            var options = new FirebaseOptions.Builder()
+            .SetApplicationId("1:201771064556:android:113c2ec3195cec6f")
+            .SetApiKey("AIzaSyCURuTbbyjCbZ1lNrzA9d6KeRHUkMWbh-Y")
+            .Build();
 
-    }
+            /* Celalalt ApiKey: AIzaSyC3jUl2EuxiyZfl7XHZezRO3Gr7Wsx9dt4 */
+
+            if (app == null ){
+                app = FirebaseApp.InitializeApp(this, options);
+            }
+            mAuth = FirebaseAuth.GetInstance(app);
+        }
+
+}
 }
