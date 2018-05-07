@@ -1,3 +1,7 @@
+HeCon.Droid.ListViewLogin, HeCon.Android;md5d08ca25770d725f1019f1a6d7ad3dfdf.ListViewLogin
+HeCon.Droid.ListViewLogin, HeCon.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d08ca25770d725f1019f1a6d7ad3dfdf.ListViewLogin
+HeCon.Droid.ListViewLogin;md5d08ca25770d725f1019f1a6d7ad3dfdf.ListViewLogin
+hecon.droid.ListViewLogin;md5d08ca25770d725f1019f1a6d7ad3dfdf.ListViewLogin
 HeCon.Droid.SplashActivity, HeCon.Android;md5d08ca25770d725f1019f1a6d7ad3dfdf.SplashActivity
 HeCon.Droid.SplashActivity, HeCon.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d08ca25770d725f1019f1a6d7ad3dfdf.SplashActivity
 HeCon.Droid.SplashActivity;md5d08ca25770d725f1019f1a6d7ad3dfdf.SplashActivity
