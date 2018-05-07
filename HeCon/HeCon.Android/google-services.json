@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "201771064556",
+    "firebase_url": "https://hecon-e36fa.firebaseio.com",
+    "project_id": "hecon-e36fa",
+    "storage_bucket": "hecon-e36fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201771064556:android:113c2ec3195cec6f",
+        "android_client_info": {
+          "package_name": "com.companyname.HeCon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201771064556-r8q2tavgik279rjvttss5lfrjul8q18k.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "201771064556-if2g3bpkaf90hjj037594gd3hoefbrs3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCURuTbbyjCbZ1lNrzA9d6KeRHUkMWbh-Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
