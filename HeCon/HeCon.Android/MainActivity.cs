@@ -17,7 +17,7 @@ using Android.Text;
 
 namespace HeCon.Droid
 {
-    [Activity(Label = "HeCon", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "HeCon", Icon = "@drawable/icon", Theme = "@style/loginscreen", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : AppCompatActivity
     {
 
@@ -182,7 +182,7 @@ namespace HeCon.Droid
             // Codurile de mai jos sunt luate din Firebase
             var options = new FirebaseOptions.Builder()
             .SetApplicationId("1:201771064556:android:113c2ec3195cec6f")
-            .SetApiKey("AIzaSyCURuTbbyjCbZ1lNrzA9d6KeRHUkMWbh-Y")
+            .SetApiKey("AIzaSyC3jUl2EuxiyZfl7XHZezRO3Gr7Wsx9dt4")
             .Build();
 
             /* Celalalt ApiKey: AIzaSyC3jUl2EuxiyZfl7XHZezRO3Gr7Wsx9dt4 */

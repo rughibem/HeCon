@@ -2243,26 +2243,26 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f020125
-			public const int avd_hide_password_1 = 2130837797;
-			
 			// aapt resource value: 0x7f020126
-			public const int avd_hide_password_2 = 2130837798;
+			public const int avd_hide_password_1 = 2130837798;
 			
 			// aapt resource value: 0x7f020127
-			public const int avd_hide_password_3 = 2130837799;
+			public const int avd_hide_password_2 = 2130837799;
+			
+			// aapt resource value: 0x7f020128
+			public const int avd_hide_password_3 = 2130837800;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020128
-			public const int avd_show_password_1 = 2130837800;
-			
 			// aapt resource value: 0x7f020129
-			public const int avd_show_password_2 = 2130837801;
+			public const int avd_show_password_1 = 2130837801;
 			
 			// aapt resource value: 0x7f02012a
-			public const int avd_show_password_3 = 2130837802;
+			public const int avd_show_password_2 = 2130837802;
+			
+			// aapt resource value: 0x7f02012b
+			public const int avd_show_password_3 = 2130837803;
 			
 			// aapt resource value: 0x7f020055
 			public const int common_full_open_on_phone = 2130837589;
@@ -2873,11 +2873,11 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f02011f
 			public const int notification_icon_background = 2130837791;
 			
-			// aapt resource value: 0x7f020123
-			public const int notification_template_icon_bg = 2130837795;
-			
 			// aapt resource value: 0x7f020124
-			public const int notification_template_icon_low_bg = 2130837796;
+			public const int notification_template_icon_bg = 2130837796;
+			
+			// aapt resource value: 0x7f020125
+			public const int notification_template_icon_low_bg = 2130837797;
 			
 			// aapt resource value: 0x7f020120
 			public const int notification_tile_bg = 2130837792;
@@ -2886,7 +2886,10 @@ namespace HeCon.Droid
 			public const int notify_panel_notification_icon_bg = 2130837793;
 			
 			// aapt resource value: 0x7f020122
-			public const int splashscreen = 2130837794;
+			public const int plusuri = 2130837794;
+			
+			// aapt resource value: 0x7f020123
+			public const int splashscreen = 2130837795;
 			
 			static Drawable()
 			{
@@ -2904,8 +2907,8 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b008a
 			public const int LogInButton = 2131427466;
 			
-			// aapt resource value: 0x7f0b00a8
-			public const int action0 = 2131427496;
+			// aapt resource value: 0x7f0b00a9
+			public const int action0 = 2131427497;
 			
 			// aapt resource value: 0x7f0b006b
 			public const int action_bar = 2131427435;
@@ -2928,17 +2931,17 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b0048
 			public const int action_bar_title = 2131427400;
 			
-			// aapt resource value: 0x7f0b00a5
-			public const int action_container = 2131427493;
+			// aapt resource value: 0x7f0b00a6
+			public const int action_container = 2131427494;
 			
 			// aapt resource value: 0x7f0b006c
 			public const int action_context_bar = 2131427436;
 			
-			// aapt resource value: 0x7f0b00ac
-			public const int action_divider = 2131427500;
+			// aapt resource value: 0x7f0b00ad
+			public const int action_divider = 2131427501;
 			
-			// aapt resource value: 0x7f0b00a6
-			public const int action_image = 2131427494;
+			// aapt resource value: 0x7f0b00a7
+			public const int action_image = 2131427495;
 			
 			// aapt resource value: 0x7f0b0003
 			public const int action_menu_divider = 2131427331;
@@ -2955,11 +2958,11 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b004a
 			public const int action_mode_close_button = 2131427402;
 			
-			// aapt resource value: 0x7f0b00a7
-			public const int action_text = 2131427495;
+			// aapt resource value: 0x7f0b00a8
+			public const int action_text = 2131427496;
 			
-			// aapt resource value: 0x7f0b00b5
-			public const int actions = 2131427509;
+			// aapt resource value: 0x7f0b00b6
+			public const int actions = 2131427510;
 			
 			// aapt resource value: 0x7f0b004b
 			public const int activity_chooser_view_content = 2131427403;
@@ -2994,8 +2997,8 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b0052
 			public const int buttonPanel = 2131427410;
 			
-			// aapt resource value: 0x7f0b00a9
-			public const int cancel_action = 2131427497;
+			// aapt resource value: 0x7f0b00aa
+			public const int cancel_action = 2131427498;
 			
 			// aapt resource value: 0x7f0b0037
 			public const int center = 2131427383;
@@ -3009,8 +3012,8 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b0062
 			public const int checkbox = 2131427426;
 			
-			// aapt resource value: 0x7f0b00b1
-			public const int chronometer = 2131427505;
+			// aapt resource value: 0x7f0b00b2
+			public const int chronometer = 2131427506;
 			
 			// aapt resource value: 0x7f0b0040
 			public const int clip_horizontal = 2131427392;
@@ -3066,14 +3069,14 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b006d
 			public const int edit_query = 2131427437;
 			
-			// aapt resource value: 0x7f0b0089
-			public const int emailEditText = 2131427465;
+			// aapt resource value: 0x7f0b0088
+			public const int emailEditText = 2131427464;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int end = 2131427369;
 			
-			// aapt resource value: 0x7f0b00bb
-			public const int end_padder = 2131427515;
+			// aapt resource value: 0x7f0b00bc
+			public const int end_padder = 2131427516;
 			
 			// aapt resource value: 0x7f0b0032
 			public const int enterAlways = 2131427378;
@@ -3111,8 +3114,8 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b0050
 			public const int icon = 2131427408;
 			
-			// aapt resource value: 0x7f0b00b6
-			public const int icon_group = 2131427510;
+			// aapt resource value: 0x7f0b00b7
+			public const int icon_group = 2131427511;
 			
 			// aapt resource value: 0x7f0b0012
 			public const int icon_only = 2131427346;
@@ -3123,8 +3126,11 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b004d
 			public const int image = 2131427405;
 			
-			// aapt resource value: 0x7f0b00b2
-			public const int info = 2131427506;
+			// aapt resource value: 0x7f0b008b
+			public const int imagePlusuri = 2131427467;
+			
+			// aapt resource value: 0x7f0b00b3
+			public const int info = 2131427507;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int item_touch_helper_previous_elevation = 2131427328;
@@ -3138,11 +3144,11 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b0017
 			public const int light = 2131427351;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int line1 = 2131427511;
+			// aapt resource value: 0x7f0b00b8
+			public const int line1 = 2131427512;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int line3 = 2131427513;
+			// aapt resource value: 0x7f0b00ba
+			public const int line3 = 2131427514;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int listMode = 2131427352;
@@ -3150,11 +3156,11 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b004f
 			public const int list_item = 2131427407;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int masked = 2131427519;
+			// aapt resource value: 0x7f0b00c0
+			public const int masked = 2131427520;
 			
-			// aapt resource value: 0x7f0b00ab
-			public const int media_actions = 2131427499;
+			// aapt resource value: 0x7f0b00ac
+			public const int media_actions = 2131427500;
 			
 			// aapt resource value: 0x7f0b002a
 			public const int middle = 2131427370;
@@ -3162,80 +3168,80 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b0045
 			public const int mini = 2131427397;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int mr_art = 2131427479;
-			
-			// aapt resource value: 0x7f0b008c
-			public const int mr_chooser_list = 2131427468;
-			
-			// aapt resource value: 0x7f0b008f
-			public const int mr_chooser_route_desc = 2131427471;
+			// aapt resource value: 0x7f0b0098
+			public const int mr_art = 2131427480;
 			
 			// aapt resource value: 0x7f0b008d
-			public const int mr_chooser_route_icon = 2131427469;
-			
-			// aapt resource value: 0x7f0b008e
-			public const int mr_chooser_route_name = 2131427470;
-			
-			// aapt resource value: 0x7f0b008b
-			public const int mr_chooser_title = 2131427467;
-			
-			// aapt resource value: 0x7f0b0094
-			public const int mr_close = 2131427476;
-			
-			// aapt resource value: 0x7f0b009a
-			public const int mr_control_divider = 2131427482;
-			
-			// aapt resource value: 0x7f0b00a0
-			public const int mr_control_playback_ctrl = 2131427488;
-			
-			// aapt resource value: 0x7f0b00a3
-			public const int mr_control_subtitle = 2131427491;
-			
-			// aapt resource value: 0x7f0b00a2
-			public const int mr_control_title = 2131427490;
-			
-			// aapt resource value: 0x7f0b00a1
-			public const int mr_control_title_container = 2131427489;
-			
-			// aapt resource value: 0x7f0b0095
-			public const int mr_custom_control = 2131427477;
-			
-			// aapt resource value: 0x7f0b0096
-			public const int mr_default_control = 2131427478;
-			
-			// aapt resource value: 0x7f0b0091
-			public const int mr_dialog_area = 2131427473;
+			public const int mr_chooser_list = 2131427469;
 			
 			// aapt resource value: 0x7f0b0090
-			public const int mr_expandable_area = 2131427472;
+			public const int mr_chooser_route_desc = 2131427472;
 			
-			// aapt resource value: 0x7f0b00a4
-			public const int mr_group_expand_collapse = 2131427492;
+			// aapt resource value: 0x7f0b008e
+			public const int mr_chooser_route_icon = 2131427470;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int mr_media_main_control = 2131427480;
+			// aapt resource value: 0x7f0b008f
+			public const int mr_chooser_route_name = 2131427471;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int mr_name = 2131427475;
+			// aapt resource value: 0x7f0b008c
+			public const int mr_chooser_title = 2131427468;
 			
-			// aapt resource value: 0x7f0b0099
-			public const int mr_playback_control = 2131427481;
-			
-			// aapt resource value: 0x7f0b0092
-			public const int mr_title_bar = 2131427474;
+			// aapt resource value: 0x7f0b0095
+			public const int mr_close = 2131427477;
 			
 			// aapt resource value: 0x7f0b009b
-			public const int mr_volume_control = 2131427483;
+			public const int mr_control_divider = 2131427483;
+			
+			// aapt resource value: 0x7f0b00a1
+			public const int mr_control_playback_ctrl = 2131427489;
+			
+			// aapt resource value: 0x7f0b00a4
+			public const int mr_control_subtitle = 2131427492;
+			
+			// aapt resource value: 0x7f0b00a3
+			public const int mr_control_title = 2131427491;
+			
+			// aapt resource value: 0x7f0b00a2
+			public const int mr_control_title_container = 2131427490;
+			
+			// aapt resource value: 0x7f0b0096
+			public const int mr_custom_control = 2131427478;
+			
+			// aapt resource value: 0x7f0b0097
+			public const int mr_default_control = 2131427479;
+			
+			// aapt resource value: 0x7f0b0092
+			public const int mr_dialog_area = 2131427474;
+			
+			// aapt resource value: 0x7f0b0091
+			public const int mr_expandable_area = 2131427473;
+			
+			// aapt resource value: 0x7f0b00a5
+			public const int mr_group_expand_collapse = 2131427493;
+			
+			// aapt resource value: 0x7f0b0099
+			public const int mr_media_main_control = 2131427481;
+			
+			// aapt resource value: 0x7f0b0094
+			public const int mr_name = 2131427476;
+			
+			// aapt resource value: 0x7f0b009a
+			public const int mr_playback_control = 2131427482;
+			
+			// aapt resource value: 0x7f0b0093
+			public const int mr_title_bar = 2131427475;
 			
 			// aapt resource value: 0x7f0b009c
-			public const int mr_volume_group_list = 2131427484;
+			public const int mr_volume_control = 2131427484;
 			
-			// aapt resource value: 0x7f0b009e
-			public const int mr_volume_item_icon = 2131427486;
+			// aapt resource value: 0x7f0b009d
+			public const int mr_volume_group_list = 2131427485;
 			
 			// aapt resource value: 0x7f0b009f
-			public const int mr_volume_slider = 2131427487;
+			public const int mr_volume_item_icon = 2131427487;
+			
+			// aapt resource value: 0x7f0b00a0
+			public const int mr_volume_slider = 2131427488;
 			
 			// aapt resource value: 0x7f0b0021
 			public const int multiply = 2131427361;
@@ -3252,14 +3258,14 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b0019
 			public const int normal = 2131427353;
 			
-			// aapt resource value: 0x7f0b00b4
-			public const int notification_background = 2131427508;
+			// aapt resource value: 0x7f0b00b5
+			public const int notification_background = 2131427509;
+			
+			// aapt resource value: 0x7f0b00af
+			public const int notification_main_column = 2131427503;
 			
 			// aapt resource value: 0x7f0b00ae
-			public const int notification_main_column = 2131427502;
-			
-			// aapt resource value: 0x7f0b00ad
-			public const int notification_main_column_container = 2131427501;
+			public const int notification_main_column_container = 2131427502;
 			
 			// aapt resource value: 0x7f0b003e
 			public const int parallax = 2131427390;
@@ -3267,8 +3273,8 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b0054
 			public const int parentPanel = 2131427412;
 			
-			// aapt resource value: 0x7f0b0088
-			public const int passwordEditText = 2131427464;
+			// aapt resource value: 0x7f0b0089
+			public const int passwordEditText = 2131427465;
 			
 			// aapt resource value: 0x7f0b003f
 			public const int pin = 2131427391;
@@ -3285,11 +3291,11 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b003c
 			public const int right = 2131427388;
 			
-			// aapt resource value: 0x7f0b00b3
-			public const int right_icon = 2131427507;
+			// aapt resource value: 0x7f0b00b4
+			public const int right_icon = 2131427508;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int right_side = 2131427503;
+			// aapt resource value: 0x7f0b00b0
+			public const int right_side = 2131427504;
 			
 			// aapt resource value: 0x7f0b0022
 			public const int screen = 2131427362;
@@ -3354,8 +3360,8 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b001f
 			public const int showTitle = 2131427359;
 			
-			// aapt resource value: 0x7f0b00bc
-			public const int sliding_tabs = 2131427516;
+			// aapt resource value: 0x7f0b00bd
+			public const int sliding_tabs = 2131427517;
 			
 			// aapt resource value: 0x7f0b007a
 			public const int smallLabel = 2131427450;
@@ -3390,8 +3396,8 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b003d
 			public const int start = 2131427389;
 			
-			// aapt resource value: 0x7f0b00aa
-			public const int status_bar_latest_event_content = 2131427498;
+			// aapt resource value: 0x7f0b00ab
+			public const int status_bar_latest_event_content = 2131427499;
 			
 			// aapt resource value: 0x7f0b0065
 			public const int submenuarrow = 2131427429;
@@ -3402,11 +3408,11 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b001a
 			public const int tabMode = 2131427354;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int text = 2131427514;
+			// aapt resource value: 0x7f0b00bb
+			public const int text = 2131427515;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int text2 = 2131427512;
+			// aapt resource value: 0x7f0b00b9
+			public const int text2 = 2131427513;
 			
 			// aapt resource value: 0x7f0b0059
 			public const int textSpacerNoButtons = 2131427417;
@@ -3423,8 +3429,8 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b000d
 			public const int textinput_error = 2131427341;
 			
-			// aapt resource value: 0x7f0b00b0
-			public const int time = 2131427504;
+			// aapt resource value: 0x7f0b00b1
+			public const int time = 2131427505;
 			
 			// aapt resource value: 0x7f0b0051
 			public const int title = 2131427409;
@@ -3435,8 +3441,8 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b005e
 			public const int title_template = 2131427422;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int toolbar = 2131427517;
+			// aapt resource value: 0x7f0b00be
+			public const int toolbar = 2131427518;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int top = 2131427377;
@@ -3462,11 +3468,11 @@ namespace HeCon.Droid
 			// aapt resource value: 0x7f0b000e
 			public const int view_offset_helper = 2131427342;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int visible = 2131427518;
+			// aapt resource value: 0x7f0b00bf
+			public const int visible = 2131427519;
 			
-			// aapt resource value: 0x7f0b009d
-			public const int volume_item_container = 2131427485;
+			// aapt resource value: 0x7f0b009e
+			public const int volume_item_container = 2131427486;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int wide = 2131427348;
@@ -3933,27 +3939,6 @@ namespace HeCon.Droid
 			
 			// aapt resource value: 0x7f08000f
 			public const int common_signin_button_text_long = 2131230735;
-			
-			// aapt resource value: 0x7f080051
-			public const int default_web_client_id = 2131230801;
-			
-			// aapt resource value: 0x7f080052
-			public const int firebase_database_url = 2131230802;
-			
-			// aapt resource value: 0x7f08004f
-			public const int gcm_defaultSenderId = 2131230799;
-			
-			// aapt resource value: 0x7f080053
-			public const int google_api_key = 2131230803;
-			
-			// aapt resource value: 0x7f080050
-			public const int google_app_id = 2131230800;
-			
-			// aapt resource value: 0x7f080054
-			public const int google_crash_reporting_api_key = 2131230804;
-			
-			// aapt resource value: 0x7f080055
-			public const int google_storage_bucket = 2131230805;
 			
 			// aapt resource value: 0x7f080011
 			public const int mr_button_content_description = 2131230737;
@@ -5239,6 +5224,9 @@ namespace HeCon.Droid
 			
 			// aapt resource value: 0x7f0c000a
 			public const int Widget_MediaRouter_MediaRouteButton = 2131492874;
+			
+			// aapt resource value: 0x7f0c018d
+			public const int loginscreen = 2131493261;
 			
 			// aapt resource value: 0x7f0c018c
 			public const int splashscreen = 2131493260;
