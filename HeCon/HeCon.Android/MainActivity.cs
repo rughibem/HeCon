@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using Firebase.Auth;
 using Firebase;
 using Android.Text;
+using System.Runtime.Remoting.Contexts;
 
 namespace HeCon.Droid
 {
@@ -54,7 +55,13 @@ namespace HeCon.Droid
 
 
             // [START initialize_auth]
-            mAuth = FirebaseAuth.Instance;
+            //  try {
+            //  FirebaseApp.InitializeApp(this);
+            FirebaseApp.InitializeApp(this);
+
+              mAuth = FirebaseAuth.Instance; //}
+           // catch (Exception e) { }
+           
             // [END initialize_auth]
         }
         void AuthStateChanged(object sender, FirebaseAuth.AuthStateEventArgs e)
