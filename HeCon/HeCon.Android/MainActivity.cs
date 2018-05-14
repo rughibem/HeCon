@@ -8,8 +8,6 @@ using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
 using Android.Support.V7.App;
-using System.Collections.Generic;
-using System;
 using System.Threading.Tasks;
 using Firebase.Auth;
 using Firebase;

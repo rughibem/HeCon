@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>Android_Accelerated_x86_Nougat</SelectedDevice>
     <DefaultDevice>Android_Accelerated_x86_Nougat</DefaultDevice>
-    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
-    <AndroidDesignerPreferredTheme>Theme.AppCompat.Light</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredDevice>Galaxy Nexus</AndroidDesignerPreferredDevice>
+    <AndroidDesignerPreferredTheme>Theme.AppCompat.DayNight.NoActionBar</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>
