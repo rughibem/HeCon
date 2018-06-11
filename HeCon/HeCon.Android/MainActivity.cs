@@ -8,8 +8,6 @@ using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
 using Android.Support.V7.App;
-using System.Collections.Generic;
-using System;
 using System.Threading.Tasks;
 using Firebase.Auth;
 using Firebase;
@@ -63,6 +61,7 @@ namespace HeCon.Droid
             InitFirebaseAuth();
 
             // [START initialize_auth]
+<<<<<<< HEAD
 
             // mAuth = FirebaseAuth.Instance;
 
@@ -74,6 +73,15 @@ namespace HeCon.Droid
            // catch (Exception e) { }
            
          // 11e84f770ebbb39baab9dfea731b6cf2fa1ed12e
+=======
+            // mAuth = FirebaseAuth.Instance;
+            //  try {
+            //  FirebaseApp.InitializeApp(this);
+            //  FirebaseApp.InitializeApp(this);
+
+           //   mAuth = FirebaseAuth.Instance; //}
+           // catch (Exception e) { }
+>>>>>>> da37bebfacef7f49a873e3e775e44db267168a22
             // [END initialize_auth]
         }
         void AuthStateChanged(object sender, FirebaseAuth.AuthStateEventArgs e)

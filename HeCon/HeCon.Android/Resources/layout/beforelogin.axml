@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6FA"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:gridSpec="1|8|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r">
+    <EditText
+        android:inputType="text"
+        android:layout_width="231.5dp"
+        android:layout_height="61.5dp"
+        android:id="@+id/text1"
+        android:layout_marginBottom="11.5dp"
+        android:textSize="25sp"
+        android:layout_marginRight="80.0dp"
+        android:layout_marginLeft="80.0dp"
+        android:layout_marginTop="160.0dp"
+        android:layout_gravity="center"
+        android:text="Welcome to HeCon!" />
+    <EditText
+        android:inputType="text"
+        android:layout_width="164.0dp"
+        android:layout_height="61.5dp"
+        android:id="@+id/text2"
+        android:layout_marginBottom="22.0dp"
+        android:textSize="20sp"
+        android:layout_marginRight="80.0dp"
+        android:layout_marginLeft="80.0dp"
+        android:layout_marginTop="156.0dp"
+        android:layout_gravity="center"
+        android:text="Slide to continue" />
+</LinearLayout>
