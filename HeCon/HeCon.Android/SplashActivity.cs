@@ -11,6 +11,16 @@ using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 
+/*<?xml version="1.0" encoding="utf-8"?>
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+         android:logo="@drawable/siglaLunga"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/actionBarSize"
+    android:background="?android:attr/colorPrimary"
+    android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"/>*/
+
 namespace HeCon.Droid
 {
  

@@ -35,5 +35,11 @@
     <item name="android:windowIsFloating">false</item>
     <item name="android:backgroundDimEnabled">true</item>
   </style>
+
+   <style name="MyThemeOK" parent="@android:style/Theme.Material.Light.DarkActionBar">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowActionBar">false</item>
+    <item name="android:colorPrimary">#AEB404</item>
+  </style>
   
 </resources>

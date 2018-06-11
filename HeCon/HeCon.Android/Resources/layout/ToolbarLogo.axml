@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#FF4000"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="0dp"
+    android:layout_marginLeft="0dp">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbarxml"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Medical History"
+        android:textSize="14dp"
+        android:gravity="left"
+        android:layout_marginTop="50dp"
+        android:id="@+id/medicalHistoryText" />
+</RelativeLayout>

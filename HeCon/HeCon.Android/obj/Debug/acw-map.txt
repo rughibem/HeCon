@@ -1,3 +1,7 @@
+HeCon.Droid.HistoryPageActivity, HeCon.Android;md5d08ca25770d725f1019f1a6d7ad3dfdf.HistoryPageActivity
+HeCon.Droid.HistoryPageActivity, HeCon.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d08ca25770d725f1019f1a6d7ad3dfdf.HistoryPageActivity
+HeCon.Droid.HistoryPageActivity;md5d08ca25770d725f1019f1a6d7ad3dfdf.HistoryPageActivity
+hecon.droid.HistoryPageActivity;md5d08ca25770d725f1019f1a6d7ad3dfdf.HistoryPageActivity
 HeCon.Droid.ListViewLogin, HeCon.Android;md5d08ca25770d725f1019f1a6d7ad3dfdf.ListViewLogin
 HeCon.Droid.ListViewLogin, HeCon.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5d08ca25770d725f1019f1a6d7ad3dfdf.ListViewLogin
 HeCon.Droid.ListViewLogin;md5d08ca25770d725f1019f1a6d7ad3dfdf.ListViewLogin

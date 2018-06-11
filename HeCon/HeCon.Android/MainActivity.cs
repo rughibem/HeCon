@@ -15,11 +15,14 @@ using Firebase.Auth;
 using Firebase;
 using Android.Text;
 using System.Runtime.Remoting.Contexts;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.Android;
+using Android.Content;
 
 namespace HeCon.Droid
 {
     [Activity(Label = "HeCon", Icon = "@drawable/icon", Theme = "@style/loginscreen", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class MainActivity : AppCompatActivity
+    public class MainActivity : FormsAppCompatActivity
     {
 
         const string TAG = "EmailPassword";
@@ -51,22 +54,26 @@ namespace HeCon.Droid
             FindViewById(Resource.Id.LogInButton).Click += async delegate
             {
                 await CreateAccount(mEmailField.Text, mPasswordField.Text);
+                Intent nextActivity = new Intent(this,typeof(HistoryPageActivity));
+                StartActivity(nextActivity);
+                
+               // await Navigation.PushAsync(new SecondPage());  
             };
 
             InitFirebaseAuth();
 
             // [START initialize_auth]
-<<<<<<< HEAD
+
             // mAuth = FirebaseAuth.Instance;
-=======
+
             //  try {
             //  FirebaseApp.InitializeApp(this);
-            FirebaseApp.InitializeApp(this);
+          //  FirebaseApp.InitializeApp(this);
 
-              mAuth = FirebaseAuth.Instance; //}
+              //mAuth = FirebaseAuth.Instance; //}
            // catch (Exception e) { }
            
->>>>>>> 11e84f770ebbb39baab9dfea731b6cf2fa1ed12e
+         // 11e84f770ebbb39baab9dfea731b6cf2fa1ed12e
             // [END initialize_auth]
         }
         void AuthStateChanged(object sender, FirebaseAuth.AuthStateEventArgs e)
@@ -113,6 +120,7 @@ namespace HeCon.Droid
             try
             {
                 await mAuth.CreateUserWithEmailAndPasswordAsync(email, password);
+
             }
             catch
             {
@@ -199,7 +207,16 @@ namespace HeCon.Droid
             /* Celalalt ApiKey: AIzaSyC3jUl2EuxiyZfl7XHZezRO3Gr7Wsx9dt4 */
 
             if (app == null ){
-                app = FirebaseApp.InitializeApp(this, options);
+               
+                try
+                    
+                {
+                    
+                    app = FirebaseApp.InitializeApp(this, options);
+                }
+                catch (Exception ex) {
+                    app = FirebaseApp.Instance;
+                }
             }
             mAuth = FirebaseAuth.GetInstance(app);
         }

@@ -2,4 +2,5 @@
 <resources>
 	<string name="hello">Hello World, Click Me!</string>
 	<string name="app_name">HeCon.Droid</string>
+	<color name="red">#FF4000/color>
 </resources>
