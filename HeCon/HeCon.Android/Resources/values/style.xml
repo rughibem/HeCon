@@ -41,7 +41,6 @@
     <item name="android:windowIsFloating">false</item>
     <item name="android:backgroundDimEnabled">true</item>
   </style>
-<<<<<<< HEAD
 
 	<style name="MainTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
   </style>
@@ -52,7 +51,3 @@
     <item name="android:colorPrimary">#FF4081</item>
   </style>
 </resources>
-=======
-	<style name="Theme.Custom" parent="@style/Theme.AppCompat.Light"><item name="android:colorBackground">#ffe8eaf6</item><item name="android:windowBackground">?android:attr/colorBackground</item></style>
-	</resources>
->>>>>>> da37bebfacef7f49a873e3e775e44db267168a22

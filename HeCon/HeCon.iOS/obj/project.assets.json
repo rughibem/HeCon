@@ -701,11 +701,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\test\\HeCon\\HeCon\\HeCon.iOS\\HeCon.iOS.csproj",
+      "projectUniqueName": "D:\\Programare\\rep\\HeCon\\HeCon\\HeCon.iOS\\HeCon.iOS.csproj",
       "projectName": "HeCon.iOS",
-      "projectPath": "C:\\Users\\User\\Desktop\\test\\HeCon\\HeCon\\HeCon.iOS\\HeCon.iOS.csproj",
+      "projectPath": "D:\\Programare\\rep\\HeCon\\HeCon\\HeCon.iOS\\HeCon.iOS.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\test\\HeCon\\HeCon\\HeCon.iOS\\obj\\",
+      "outputPath": "D:\\Programare\\rep\\HeCon\\HeCon\\HeCon.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
